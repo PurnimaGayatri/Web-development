@@ -1,0 +1,32 @@
+{
+  "career":{
+    "info":"Expecting that the qualifications of mine may please you"
+  },
+"education":[
+  {
+    "Degree":"SSC",
+    "Institution":"Presidency",
+    "YOP":"2014"
+  },
+  {
+    "Degree":"Inter",
+    "Institution":"Sri Gayatri",
+    "YOP":"2016"
+  },
+  {
+    "Degree":"B-tech",
+    "Institution":"Vignan Nirula",
+    "YOP":"2020"
+  }
+],
+"technical":[
+  {
+    "title":"Skills",
+    "content":"C,C++,.Net"
+  },
+  {
+    "title":"OS",
+    "content":"Windows,Linux"
+  }
+]
+}
