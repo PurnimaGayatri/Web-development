@@ -1,0 +1,27 @@
+{
+  "career":{
+    "info":"Expecting that the qualifications of mine may please you"
+  },
+"education":[
+  {
+    "s.no":"1",
+    "Institute":"Presidency",
+    "YOP":"2014"
+  },
+  {
+    "s.no":"2",
+    "Institute":"Sri Gayatri",
+    "YOP":"2016"
+  },
+  {
+    "s.no":"3",
+    "Institute":"Vignan Nirula",
+    "YOP":"2020"
+  }
+],
+"technical":[
+  {
+    "Skills":"C,C++,.Net"
+  }
+]
+}

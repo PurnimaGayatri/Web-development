@@ -1,0 +1,107 @@
+body{
+  background: lightyellow;
+  backg
+}
+.maindiv{
+  background: grey;
+  margin: 5%;
+  border-radius: 3%;
+  display: flex;
+  width:100%;
+  background-image: url(Chrysanthemum.jpg);
+}
+.leftdiv{
+  background: brown;
+  border-radius: 2%;
+  box-shadow: 4px 4px 4px 4px lightgreen;
+  width: 30%;
+  text-align: center;
+  height:70%;
+  position: fixed;
+  margin-left: 3%;
+}
+.rightdiv{
+  background: lightblue;
+  border-radius: 2%;
+  box-shadow: 4px 4px 4px 4px lightgreen;
+  width: 50%;
+  margin-left: 38%;
+}
+img{
+  margin: 5%;
+  height: 30%;
+  width: 60%;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+  body{
+    background: cyan;
+  }
+  .maindiv{
+    background: lightgreen;
+    margin: 0%;
+    border-radius: 3%;
+    display: inline-block;
+    background-image: url(Tulips.jpg);
+  }
+  .leftdiv{
+    background: lightyellow;
+    margin-left: 3%;
+    border-radius: 2%;
+    box-shadow: 4px 4px 4px 4px lightgreen;
+    width: 60%;
+    text-align: center;
+    height:40%;
+    margin-top: 3%;
+    position: relative;
+  }
+  .rightdiv{
+    background: grey;
+    margin:0%;
+    border-radius: 2%;
+    box-shadow: 4px 4px 4px 4px lightgreen;
+    width:100%;
+    height: 30%;
+    margin-top: 5%;
+  }
+  img{
+    margin: 2%;
+    height: 15%;
+    width: 70%;
+  }
+}
+@media screen and (min-width:480px) and (max-width:570px) {
+  body{
+    background: pink;
+  }
+.maindiv{
+    background: antiquewhite;
+    margin: 0%;
+    border-radius: 3%;
+    width:100%;
+    display: flex;
+    background-image: url(Lighthouse.jpg);
+  }
+.leftdiv{
+    background: lightyellow;
+    margin: 5%;
+    border-radius: 2%;
+    box-shadow: 4px 4px 4px 4px lightgreen;
+    width: 30%;
+    text-align: center;
+    margin-left: 3%;
+    position: relative;
+  }
+.rightdiv{
+    background: bisque;
+    margin:5%;
+    border-radius: 2%;
+    box-shadow: 4px 4px 4px 4px lightgreen;
+    width: 70%;
+    margin-left: 4%;
+  }
+  img{
+    margin: 2%;
+    height: 15%;
+    width: 70%;
+  }
+}

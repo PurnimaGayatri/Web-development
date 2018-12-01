@@ -1,0 +1,79 @@
+body{
+  background-color:Grey;
+}
+.MainDiv
+{
+  background-color:Pink;
+  margin: 4%;
+  border-radius:3%;
+  display: flex;
+  justify-content: space-around;
+}
+.SubDiv
+{
+  background-color: Brown;
+  border-radius: 3%;
+  margin: 2%;
+  box-shadow: 4px 4px 4px 4px;
+  text-align: center;
+
+}
+img{
+  margin:2%;
+  height: 50%;
+  width: 70%;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+  body{
+    background-color:Pink;
+  }
+  .MainDiv
+  {
+    background-color:Brown;
+    margin: 0%;
+    border-radius:3%;
+    display: inline-block;
+    width:100%;
+  }
+  .SubDiv
+  {
+    background-color: Pink;
+    border-radius: 3%;
+    margin: 3%;
+    box-shadow: 4px 4px 4px 4px;
+    text-align: center;
+    width:100%;
+}
+img{
+  margin:2%;
+  height:15%;
+  width: 70%;
+}
+}
+@media screen and (min-width:480px) and (max-width:550px) {
+  body{
+    background-color:Brown;
+  }
+  .MainDiv
+  {
+    background-color:aqua;
+    margin: 2%;
+    border-radius:3%;
+    display: flex;
+    width:100%;
+  }
+  .SubDiv
+  {
+    background-color: Pink;
+    border-radius: 3%;
+    margin: 3%;
+    box-shadow: 4px 4px 4px 4px;
+    text-align: center;
+    width:100%;
+}
+img{
+  margin:2%;
+  height:50%;
+  width: 70%;
+}
+}
